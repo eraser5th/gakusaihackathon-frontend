@@ -1,4 +1,3 @@
-import "./App.css";
 import { Home, Person, Calendar, SVGColor, CollegeCap, Note, Graph, TodoList, QuestionRounded, Handshake, Schedule } from "./icons";
 import { Sound } from "./icons/Sound";
 
