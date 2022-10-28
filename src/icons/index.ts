@@ -8,6 +8,7 @@ export * from "./TodoList"
 export * from "./QuestionRounded"
 export * from "./Handshake"
 export * from "./Schedule"
+export * from "./Logo"
 
 export enum SVGColor {
   black = "black",

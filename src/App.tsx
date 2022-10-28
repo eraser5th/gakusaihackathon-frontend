@@ -1,8 +1,9 @@
-import { Home, Person, Calendar, SVGColor, CollegeCap, Note, Graph, TodoList, QuestionRounded, Handshake, Schedule } from "./icons";
+import { Home, Person, Calendar, SVGColor, CollegeCap, Note, Graph, TodoList, QuestionRounded, Handshake, Schedule, Logo } from "./icons";
 import { Sound } from "./icons/Sound";
 
 export const App: React.FC = () => {
   return <div className="w-screen h-screen bg-slate-500 overflow-scroll">
+    <Logo />
     <Home color={SVGColor.black}/>
     <Home color={SVGColor.gray}/>
     <Home color={SVGColor.white}/>
