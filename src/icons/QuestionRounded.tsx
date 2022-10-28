@@ -1,11 +1,11 @@
 import { SVGColor } from ".";
-import { ReactComponent as White } from "./QuestionRoundedWhite.svg"
-import { ReactComponent as Gray } from "./QuestionRoundedGray.svg"
-import { ReactComponent as Black } from "./QuestionRoundedBlack.svg"
+import { ReactComponent as White } from "./QuestionRoundedWhite.svg";
+import { ReactComponent as Gray } from "./QuestionRoundedGray.svg";
+import { ReactComponent as Black } from "./QuestionRoundedBlack.svg";
 
 export const QuestionRounded: React.FC<{
   color?: SVGColor;
-}> = ({color = "black"}) => {
+}> = ({ color = "black" }) => {
   switch (color) {
     case SVGColor.black:
       return <Black />;
@@ -14,4 +14,4 @@ export const QuestionRounded: React.FC<{
     default:
       return <White />;
   }
-}
+};

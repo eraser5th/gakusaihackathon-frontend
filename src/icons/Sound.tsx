@@ -5,7 +5,7 @@ import { ReactComponent as White } from "./SoundWhite.svg";
 
 export const Sound: React.FC<{
   color?: SVGColor;
-}> = ({color = "black"}) => {
+}> = ({ color = "black" }) => {
   switch (color) {
     case SVGColor.black:
       return <Black />;
@@ -14,4 +14,4 @@ export const Sound: React.FC<{
     default:
       return <White />;
   }
-}
+};

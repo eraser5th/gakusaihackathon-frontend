@@ -1,11 +1,11 @@
 import { SVGColor } from ".";
-import { ReactComponent as White } from "./PersonWhite.svg"
-import { ReactComponent as Gray } from "./PersonGray.svg"
-import { ReactComponent as Black } from "./PersonBlack.svg"
+import { ReactComponent as White } from "./PersonWhite.svg";
+import { ReactComponent as Gray } from "./PersonGray.svg";
+import { ReactComponent as Black } from "./PersonBlack.svg";
 
 export const Person: React.FC<{
   color?: SVGColor;
-}> = ({color = "black"}) => {
+}> = ({ color = "black" }) => {
   switch (color) {
     case SVGColor.black:
       return <Black />;
@@ -14,4 +14,4 @@ export const Person: React.FC<{
     default:
       return <White />;
   }
-}
+};
