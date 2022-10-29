@@ -10,7 +10,16 @@ export enum Routes {
 }
 
 export const routes: Route[] = [
-  { path: Routes.Home, element: <HomePage /> },
-  { path: Routes.Schedule, element: <SchedulePage /> },
-  { path: Routes.Grade, element: <GradePage /> },
+  {
+    path: Routes.Home,
+    element: <HomePage />,
+  },
+  {
+    path: Routes.Schedule,
+    element: <SchedulePage />,
+  },
+  {
+    path: Routes.Grade,
+    element: <GradePage />,
+  },
 ];
