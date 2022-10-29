@@ -1,4 +1,4 @@
-import { Suspense, useEffect } from "react";
+import { Suspense } from "react";
 import { MoonLoader } from "react-spinners";
 import { Header } from "../components/Header";
 import { Navigator } from "../components/Navigator";
@@ -21,28 +21,10 @@ const fetchContents = (): wrappedResult<string[]> => {
 
 const contentsResult = fetchContents();
 
-const fetchCalendar = (): wrappedResult<any> => {
-  const hoge = async () => {
-    const res = await fetch(
-      "https://csweb.u-aizu.ac.jp/calendar/072e701605a979cac7bef69dac84faff9bfbaf64-J.ics"
-    );
-    return res.json();
-  };
-  return wrapPromise(hoge());
-};
-
-const calendarResult = fetchCalendar();
-
 export const HomePageMain: React.FC = () => {
   const contents = contentsResult.read();
-  const calendar = calendarResult.read();
 
-  return (
-    <>
-      <p className="mb-2">{contents}</p>
-      <p>{calendar}</p>
-    </>
-  );
+  return <p className="mb-2">{contents}</p>;
 };
 
 export const HomePage: React.FC = () => {
