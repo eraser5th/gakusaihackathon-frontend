@@ -1,7 +1,6 @@
 import { Navigate } from "@tanstack/react-location";
 import React from "react";
 import { useLogin } from "../hooks/useLogin";
-import { Navigator } from "./Navigator";
 
 export const Page: React.FC<{
   header: React.ReactNode;

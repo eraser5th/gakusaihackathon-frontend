@@ -1,6 +1,6 @@
 import { Link, useLocation } from "@tanstack/react-location";
 import { useEffect, useState } from "react";
-import { Calendar, Graph, Home, QuestionRounded, SVGColor } from "../icons";
+import { Calendar, Graph, Home, SVGColor } from "../icons";
 import { Routes } from "../routing/routes";
 
 export type Page =

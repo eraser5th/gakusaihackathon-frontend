@@ -1,5 +1,3 @@
-import { wrappedResult, wrapPromise } from "./lib";
-
 const baseUrl = "http://localhost:3000";
 
 type Schedule = {

@@ -1,7 +1,11 @@
 import { Navigate } from "@tanstack/react-location";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-export const useLogin = () => {
+export const useLogin = (): {
+  loggedIn: boolean;
+  login: (id: string, ps: string) => void;
+  logout: () => void;
+} => {
   const [loggedIn, setLogin] = useState(
     window.localStorage.getItem("onetime") !== null
   );
@@ -14,6 +18,9 @@ export const useLogin = () => {
       //   token: string;
       // } = await res.json();
       // window.localStorage.setItem("onetime", body.token);
+
+      // eslint-disable-next-line
+      console.log(id, pw);
       window.localStorage.setItem("onetime", "hoge");
       setLogin(true);
     },
