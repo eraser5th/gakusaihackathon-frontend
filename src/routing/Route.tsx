@@ -5,7 +5,7 @@ import {
   Router,
 } from "@tanstack/react-location";
 import { useEffect } from "react";
-import { useLogin, useLoginRouter } from "../hooks/useLogin";
+import { useLogin } from "../hooks/useLogin";
 import { GradePage } from "../pages/GradePage";
 import { HomePage } from "../pages/HomePage";
 import { LoginPage } from "../pages/LoginPage";

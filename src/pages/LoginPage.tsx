@@ -7,7 +7,6 @@ import { Logo } from "../icons";
 
 export const LoginPage: React.FC = () => {
   const { loggedIn, login } = useLogin();
-  console.log(loggedIn);
 
   if (loggedIn) {
     return <Navigate to="/" />;
