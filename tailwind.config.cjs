@@ -8,6 +8,7 @@ module.exports = {
         "aizuLightGreen": "#E3F1F1",
         "aizuDark": "#555555",
         "aizuGray": "#A4A4A4",
+        "aizuLightGray": "#F4F4F4",
       },
       "color": {
         "aizuGray": "#A4A4A4",

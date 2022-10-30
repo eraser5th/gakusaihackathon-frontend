@@ -6,6 +6,7 @@ import { Logo } from "../icons";
 export const GradePage: React.FC = () => {
   return (
     <Page
+      onlyLoggedIn
       header={
         <Header>
           <div className="flex h-full items-center px-8">
