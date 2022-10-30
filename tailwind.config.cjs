@@ -16,6 +16,9 @@ module.exports = {
       "text": {
         "aizuGray": "#A4A4A4",
       },
+      "borderColor": {
+        "aizuGreen": "#008484",
+      },
     },
   },
   plugins: [],
