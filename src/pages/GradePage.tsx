@@ -14,6 +14,7 @@ export const GradePage: React.FC = () => {
           </div>
         </Header>
       }
+      title="成績"
       navigator={<Navigator />}
     >
       this is grade page

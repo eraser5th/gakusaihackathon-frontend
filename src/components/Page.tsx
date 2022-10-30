@@ -33,7 +33,7 @@ export const Page: React.FC<{
   }
 
   return (
-    <div className="w-screen min-h-screen">
+    <div className="w-screen min-h-screen text-aizuDark">
       {header}
       {navigator}
       <main className="p-10">

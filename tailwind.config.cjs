@@ -10,8 +10,9 @@ module.exports = {
         "aizuGray": "#A4A4A4",
         "aizuLightGray": "#F4F4F4",
       },
-      "color": {
+      "textColor": {
         "aizuGray": "#A4A4A4",
+        "aizuDark": "#555555",
       },
       "text": {
         "aizuGray": "#A4A4A4",
